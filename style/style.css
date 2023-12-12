@@ -1,0 +1,20 @@
+header{
+    background: #00000063;
+}
+.z-index-1{
+    top: 0;
+    z-index: -1 !important;
+}
+
+.bg-overlay {
+    background: #00000063;
+}
+
+.thaavan{
+    color: aliceblue;
+}
+.we_do{
+    height: 50%;
+    width: 100%;
+    background-color: yellowgreen;
+}
