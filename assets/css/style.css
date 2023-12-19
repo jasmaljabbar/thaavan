@@ -9,10 +9,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-body {
-  font-family: 'Hidayatulla', sans-serif;
+@font-face {
+  font-family:'hidayathullah' ;
+  src: url("\Hidayatullah.ttf");
 }
+
+
 
 
 body {
@@ -143,7 +145,7 @@ body {
     font-size: 34px;
     margin: 0;
     padding: 0;
-    font-family: "Hidayatullah"sans-serif;
+    font-family: hidayathullah;
     font-weight: 700;
     letter-spacing: 3px;
     padding-left: 10px;
