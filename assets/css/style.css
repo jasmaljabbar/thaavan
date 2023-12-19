@@ -142,11 +142,11 @@ body {
   }
   
   #header .logo {
-    font-size: 34px;
+    /* font-size: 34px; */
     margin: 0;
     padding: 0;
-    font-family: hidayathullah;
-    font-weight: 700;
+    font-family: sans-serif;
+    /* font-weight: 700; */
     letter-spacing: 3px;
     padding-left: 10px;
     border-left: 4px solid #18d26e;
@@ -155,14 +155,21 @@ body {
   #header .logo a {
     color: #fff;
   }
-  
+  #header .logo small {
+    margin-top: -30px;
+    margin-left: 2px;
+
+  }
   #header .logo img {
     max-height: 40px;
   }
   
   @media (max-width: 992px) {
-    #header .logo {
-      font-size: 28px;
+    #header .logo small {
+      margin-top: -27px;
+      margin-left: 2px;
+      letter-spacing: 0px;
+
     }
   }
   
